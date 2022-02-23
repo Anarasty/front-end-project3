@@ -1,0 +1,5 @@
+JavaScript Display
+innerHTML - writing into an HTML element
+document.write() - writing into the HTML output
+window.alert() - writing into an alert box
+console.log() - writing into the browser console
