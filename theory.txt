@@ -3,3 +3,19 @@ innerHTML - writing into an HTML element
 document.write() - writing into the HTML output (DON'T USE THIS!!!)
 window.alert() - writing into an alert box
 console.log() - writing into the browser console
+
+JAVASCRIPT KEYWORDS
+var - declares a variable           ---\
+let	- declares a block variable     ---| -- USED TO DECLARE VARIABLES
+const - declares a block constant   ---/
+if - marks a block of statements to be executed on a condition
+switch - marks a block of statements to be executed in different cases
+for - marks a block of statements to be executed in a loop
+function - declares a function
+return - exits a function
+try - implements error handling to a block of statements
+
+
+SYNTAX
+Strings: "John Doe" 'John Doe'
+Numbers: 10.50 1001
