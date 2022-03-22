@@ -106,3 +106,17 @@ const beta = 12;
   console.log("beta is ..." + beta);
 }
 console.log("beta is ..." + beta);
+
+// ---
+let firstNumber = 2;
+let secondNumber = 3;
+
+let result1 = firstNumber ** secondNumber; //Exponentiation
+let result2 = firstNumber + secondNumber;
+
+document.getElementById("demo8").innerHTML = result1;
+document.getElementById("demo9").innerHTML = result2;
+
+let name1 = 'Bob ';
+name1 += 'Franklin';
+document.getElementById("demo10").innerHTML = name1;
