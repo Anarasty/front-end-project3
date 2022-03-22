@@ -73,3 +73,36 @@ let animal = 'cat';
 }
 
 console.log('the animal is ' + animal);
+
+// ---
+const numberTest = 13.13;
+//numberTest = 20; //THIS WILL GIVE AN ERROR
+// numberTest = numberTest + 10;//THIS WILL GIVE AN ERROR
+console.log('number is ' + numberTest);
+
+// ---
+function myFunction7(){
+  const food = ["apple", "tomato", "orange"];
+  food[1] = "pizza";
+  food.push("bread");
+  document.getElementById("demoArray1").innerHTML = food;
+}
+
+// ---
+function myFunction8() {
+  const juice = { water: "200mg", shugar: "10mg", dop: "5mg" };
+  juice.dop = "15mg";
+  juice.color = "orange";
+  document.getElementById("demoArray2").innerHTML = juice.water + juice.shugar + juice.dop + juice.color;
+}
+ 
+const beta = 12;
+{
+  const beta = 20;
+  console.log("beta is ..." + beta);
+}
+{
+  const beta = 30;
+  console.log("beta is ..." + beta);
+}
+console.log("beta is ..." + beta);
