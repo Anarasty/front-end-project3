@@ -120,3 +120,29 @@ document.getElementById("demo9").innerHTML = result2;
 let name1 = 'Bob ';
 name1 += 'Franklin';
 document.getElementById("demo10").innerHTML = name1;
+
+
+// --- ARITHMETICS
+let qq = 22;
+let ww = 10;
+let result3 = qq % ww; //Modulus returns the division remainder
+document.getElementById("demo11").innerHTML = result3;
+
+let ee = 10;
+ee++;
+let rr = ee; //Increment 
+document.getElementById("demo12").innerHTML = rr;
+
+let tt = 10;
+tt--;
+let yy = tt;
+document.getElementById("demo13").innerHTML = tt;
+
+// --- ASSIGMENT
+let uu = 5;
+uu += 20;
+document.getElementById("demo14").innerHTML = uu;
+
+let ii = 10;
+ii -= 2;
+document.getElementById("demo15").innerHTML = ii;
