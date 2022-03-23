@@ -59,7 +59,7 @@ document.getElementById("demo6").innerHTML = r;
 }
 document.getElementById("demo7").innerHTML = monkey;
 
-var creature = 'elf';
+var creature = "elf";
 {
   var creature = "gnome";
 }
@@ -67,21 +67,21 @@ var creature = 'elf';
 console.log(creature);
 
 // ---
-let animal = 'cat';
+let animal = "cat";
 {
-  let animal = 'dog';
+  let animal = "dog";
 }
 
-console.log('the animal is ' + animal);
+console.log("the animal is " + animal);
 
 // ---
 const numberTest = 13.13;
 //numberTest = 20; //THIS WILL GIVE AN ERROR
 // numberTest = numberTest + 10;//THIS WILL GIVE AN ERROR
-console.log('number is ' + numberTest);
+console.log("number is " + numberTest);
 
 // ---
-function myFunction7(){
+function myFunction7() {
   const food = ["apple", "tomato", "orange"];
   food[1] = "pizza";
   food.push("bread");
@@ -93,9 +93,10 @@ function myFunction8() {
   const juice = { water: "200mg", shugar: "10mg", dop: "5mg" };
   juice.dop = "15mg";
   juice.color = "orange";
-  document.getElementById("demoArray2").innerHTML = juice.water + juice.shugar + juice.dop + juice.color;
+  document.getElementById("demoArray2").innerHTML =
+    juice.water + juice.shugar + juice.dop + juice.color;
 }
- 
+
 const beta = 12;
 {
   const beta = 20;
@@ -117,10 +118,9 @@ let result2 = firstNumber + secondNumber;
 document.getElementById("demo8").innerHTML = result1;
 document.getElementById("demo9").innerHTML = result2;
 
-let name1 = 'Bob ';
-name1 += 'Franklin';
+let name1 = "Bob ";
+name1 += "Franklin";
 document.getElementById("demo10").innerHTML = name1;
-
 
 // --- ARITHMETICS
 let qq = 22;
@@ -130,7 +130,7 @@ document.getElementById("demo11").innerHTML = result3;
 
 let ee = 10;
 ee++;
-let rr = ee; //Increment 
+let rr = ee; //Increment
 document.getElementById("demo12").innerHTML = rr;
 
 let tt = 10;
@@ -146,3 +146,17 @@ document.getElementById("demo14").innerHTML = uu;
 let ii = 10;
 ii -= 2;
 document.getElementById("demo15").innerHTML = ii;
+
+// -------------DATA TYPES
+let l; //NOW UNDIFINED
+l = 12; // NOW 12
+l = 'mark'; // NOW MARK
+document.getElementById("demo16").innerHTML = l;
+
+let t = 4,
+y = 4,
+u = 5;
+
+document.getElementById("demo17").innerHTML = (y == t) + ' ' + (y == u);
+
+document.getElementById("demo18").innerHTML = typeof 2 + ' ' + typeof "sell"
