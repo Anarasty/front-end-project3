@@ -147,7 +147,7 @@ let ii = 10;
 ii -= 2;
 document.getElementById("demo15").innerHTML = ii;
 
-// -------------DATA TYPES
+// ------------- DATA TYPES
 let l; //NOW UNDIFINED
 l = 12; // NOW 12
 l = 'mark'; // NOW MARK
@@ -159,4 +159,36 @@ u = 5;
 
 document.getElementById("demo17").innerHTML = (y == t) + ' ' + (y == u);
 
-document.getElementById("demo18").innerHTML = typeof 2 + ' ' + typeof "sell"
+document.getElementById("demo18").innerHTML = typeof 2 + ' ' + typeof "sell";
+
+// ------------- FUNCTIONS
+let func1 = myFunction9(2, 3);
+document.getElementById("demo19").innerHTML = func1;
+function myFunction9(p1, p2) {
+  return p1 + p2;
+}
+
+document.getElementById("demo20").innerHTML = "Number: " + myFunction10(5) + " apples left";
+function myFunction10(countOfApples){
+  return countOfApples - 1;
+}
+
+// ------------- OBJECTS
+ const cat = {
+   name: "Max",
+   age: 4,
+   gender: "male",
+   color: "black, grey, white"
+ };
+
+ document.getElementById("demo21").innerHTML = "Cat name is " + cat.name + ". He is " + cat.age + " years old." + cat['gender'];
+
+ const person1 = {
+  firstName: 'Alan',
+  secondName: 'Black',
+  age: 23,
+  fullName: function() {
+    return this.firstName + "__" + this.secondName;
+  }
+ };
+ document.getElementById("demo22").innerHTML = "Full name is " + person1.fullName();
