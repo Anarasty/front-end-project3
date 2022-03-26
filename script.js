@@ -194,4 +194,17 @@ function myFunction10(countOfApples){
  document.getElementById("demo22").innerHTML = "Full name is " + person1.fullName();
 
 
-// ------------- EVENTS
+// ------------- STRINGS
+let someText = 'SADSASDASDSAD';
+let lengthText = someText.length;
+console.log('text length '+ lengthText);
+
+let someText2 = "this is \"SPARTA\" !!!";
+console.log(someText2);
+
+let testString = 'MAX';
+let testObject =  new String('Max');
+
+document.getElementById("demo24").innerHTML = typeof testString + "<br>" + typeof testObject;
+
+document.getElementById("demo25").innerHTML = testString==testObject;
