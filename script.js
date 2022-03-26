@@ -192,3 +192,6 @@ function myFunction10(countOfApples){
   }
  };
  document.getElementById("demo22").innerHTML = "Full name is " + person1.fullName();
+
+
+// ------------- EVENTS
