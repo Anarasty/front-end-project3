@@ -208,3 +208,62 @@ let testObject =  new String('Max');
 document.getElementById("demo24").innerHTML = typeof testString + "<br>" + typeof testObject;
 
 document.getElementById("demo25").innerHTML = testString==testObject;
+
+// ------------- STRING METHODS
+
+let someText3 = 'This is some text';
+let slice1 = someText3.slice(5, 12);
+let slice2 = someText3.slice(-12, -5); 
+let slice3 = someText3.slice(5);
+let slice4 = someText3.slice(-5);
+
+document.getElementById("demo26").innerHTML = slice1;
+document.getElementById("demo27").innerHTML = slice2;
+document.getElementById("demo28").innerHTML = slice3;
+document.getElementById("demo29").innerHTML = slice4;
+
+
+let someText4 = 'Enother paragraph here';
+let substring1 = someText4.substring(0, 7);
+
+document.getElementById("demo30").innerHTML = substring1;
+
+
+let someText5 = 'Hello world';
+let substr1 = someText5.substr(0, 7);
+let substr2 = someText5.substr(4);
+let substr3 = someText5.substr(-8);
+
+document.getElementById("demo31").innerHTML = substr1;
+document.getElementById("demo32").innerHTML = substr2;
+document.getElementById("demo33").innerHTML = substr3;
+
+let someText6 = 'Good morning morning';
+let replace1 = someText6.replace('morning', 'night');
+let replace2 = someText6.replace(/MORNING/i, 'night');
+let replace3 = someText6.replace(/morning/g, "night");
+
+document.getElementById("demo34").innerHTML = replace1;
+document.getElementById("demo35").innerHTML = replace2;
+document.getElementById("demo36").innerHTML = replace3;
+
+
+let someText7 = "Hi All!";
+let someText8 = "2";
+
+let uppercase1 = someText7.toUpperCase();
+let lowercase1 = someText7.toLowerCase();
+let concat1 = someText7.concat('', someText8);
+let padstart1 = someText8.padStart(9,0);
+let padend1 = someText8.padEnd(3,0);
+console.log(uppercase1);
+console.log(lowercase1);
+console.log(concat1);
+console.log(padstart1);
+console.log(padend1);
+
+let someText9 = "HELLO WORLD";
+let charat1 = someText9.charAt(1);
+let propertyAcess = someText9[0];
+console.log(charat1);
+console.log(propertyAcess);

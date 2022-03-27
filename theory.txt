@@ -113,3 +113,21 @@ JAVASCRIPT STRINGS
 \r	    Carriage Return
 \t	    Horizontal Tabulator
 \v	    Vertical Tabulator
+
+JAVASCRIPT STRING METHODS
+- slice(start, end) - extracts a part of a string and returns the extracted part in a new string.
+- substring(start, end) - same as slice but without negative indexes
+- substr(start, end) - is similar to slice(). The difference is that the second parameter specifies the length of the extracted part
+- replace('word1', 'word2') - replaces a specified value with another value in a string
+- toUpperCase() - string is converted to upper case
+- toLowerCase() - string is converted to lower case with
+- concat() - joins two or more strings
+- trim() - removes whitespace from both sides of a string
+- padStart and padEnd - support padding at the beginning and at the end of a string
+- split() - string can be converted to an array
+
+There are 3 methods for extracting string characters:
+- charAt(position) - returns the character at a specified index (position) in a string
+- charCodeAt(position) - returns the unicode of the character at a specified index in a string
+- Property access [ ]'
+
