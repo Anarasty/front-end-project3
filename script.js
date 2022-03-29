@@ -280,3 +280,13 @@ console.log(string2.match(/ello/gi));
 console.log(string2.includes('sobaka'));
 console.log(string2.startsWith('He'));
 console.log(string2.endsWith('lo'));
+
+// ------------- TEMPLATE LITERALS
+
+let string3 = `Testing 'template' "literals"`;
+document.getElementById("demo37").innerHTML = string3;
+
+let name2 = 'MAX';
+let surname2 = "PAIN";
+let string4 = `My name is ${name2} and my surname is ${surname2}`;
+document.getElementById("demo38").innerHTML = string4;
