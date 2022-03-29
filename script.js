@@ -267,3 +267,16 @@ let charat1 = someText9.charAt(1);
 let propertyAcess = someText9[0];
 console.log(charat1);
 console.log(propertyAcess);
+
+// ------------- STRING SEARCH METHODS
+let string1 = "Hello awesome world awesome";
+console.log(string1.indexOf('awesome',1));
+console.log(string1.lastIndexOf('awesome',20));
+console.log(string1.search('Hello'));
+
+let string2 = "Hello HELLO hello";
+console.log(string2.match('ello')); // --/ello/g--
+console.log(string2.match(/ello/gi));
+console.log(string2.includes('sobaka'));
+console.log(string2.startsWith('He'));
+console.log(string2.endsWith('lo'));

@@ -131,3 +131,11 @@ There are 3 methods for extracting string characters:
 - charCodeAt(position) - returns the unicode of the character at a specified index in a string
 - Property access [ ]'
 
+JAVASCRIPT STRING SEARCH METHODS
+indexOf() - returns the index of (the position of) the first occurrence of a specified text in a string
+lastIndexOf() - returns the index of the last occurrence of a specified text in a string
+search() - searches a string for a specified value and returns the position of the match
+match() - searches a string for a match against a regular expression, and returns the matches, as an Array object
+includes() - returns true if a string contains a specified value
+startsWith() - returns true if a string begins with a specified value, otherwise false
+endsWith() - returns true if a string ends with a specified value, otherwise false
