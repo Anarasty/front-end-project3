@@ -290,3 +290,25 @@ let name2 = 'MAX';
 let surname2 = "PAIN";
 let string4 = `My name is ${name2} and my surname is ${surname2}`;
 document.getElementById("demo38").innerHTML = string4;
+
+// ------------- NUMBERS
+let number1 = 0.2 + 0.1;
+document.getElementById("demo39").innerHTML = number1;
+
+let number2 = "hello" * 23;
+document.getElementById("demo40").innerHTML = number2;
+document.getElementById("demo41").innerHTML = isNaN(number2);
+
+let number3 = NaN;
+let number4 = "22";
+let result4 = number3 + number4;
+document.getElementById("demo42").innerHTML = result4 + typeof number3;
+
+let result5 = 3/0;
+document.getElementById("demo43").innerHTML = result5;
+
+let number5 = 0xFF;
+document.getElementById("demo44").innerHTML = number5;
+
+let number6 = new Number(120);
+document.getElementById("demo45").innerHTML = number6 + typeof number6;
