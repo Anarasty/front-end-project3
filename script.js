@@ -312,3 +312,70 @@ document.getElementById("demo44").innerHTML = number5;
 
 let number6 = new Number(120);
 document.getElementById("demo45").innerHTML = number6 + typeof number6;
+
+// ------------- NUMBER METHODS
+let number7 = 20;
+document.getElementById("demo46").innerHTML = number7.toString() + " " + (30).toString();
+
+let number8 = 3.5456;
+document.getElementById("demo47").innerHTML =
+  number8.toExponential() +
+  "</br>" +
+  number8.toExponential(2) +
+  "</br>" +
+  number8.toExponential(6);  
+
+document.getElementById("demo48").innerHTML = 
+  number8.toFixed(0) + 
+  "</br>" +
+  number8.toFixed(2) +
+  "</br>" +
+  number8.toFixed(6);
+
+document.getElementById("demo49").innerHTML =
+  number8.toPrecision() +
+  "</br>" +
+  number8.toPrecision(2) +
+  "</br>" +
+  number8.toPrecision(6);
+
+document.getElementById("demo50").innerHTML = number8.valueOf() + "</br>" + (222).valueOf();
+
+document.getElementById("demo51").innerHTML = 
+Number(true) + "<br>" +
+Number(false) + "<br>" +
+Number(12) + "<br>" +
+Number("23") + "<br>" +
+Number("1,111") + "<br>" +
+Number("20 10");
+
+document.getElementById("demo52").innerHTML = 
+parseInt("-43") + "<br>" +
+parseInt("2.23") + "<br>" +
+parseInt("20 12") + "<br>" +
+parseInt("66 hello") + "<br>" +
+parseInt("eee 22");
+
+document.getElementById("demo53").innerHTML = 
+parseFloat("-212") + "<br>" +
+parseFloat("33.33") + "<br>" +
+parseFloat("54 ff") + "<br>" +
+parseFloat("sss 11");
+
+let number9 = Number.MAX_VALUE;
+console.log(number9);
+
+let number10 = Number.MIN_VALUE;
+console.log(number10);
+
+let number11 = Number.POSITIVE_INFINITY;
+console.log(number11);
+
+let number12 = Number.NEGATIVE_INFINITY;
+console.log(number12);
+
+let number13 = Number.NaN;
+console.log(number13);
+
+let number14 = 23;
+console.log(number14.MAX_VALUE);
