@@ -403,3 +403,23 @@ console.log(animals2);
 console.log(animals3);
 console.log(animalLast);
 console.log(Array.isArray(animals3));
+
+///ARRAY METHODS///
+console.log(animals1.join("-"));
+console.log(animals3.pop());
+console.log(animals3);
+console.log(animals3.push('superCat'));
+console.log(animals3);
+console.log('shift '+animals3.shift());
+console.log(animals3);
+console.log('unshift '+animals3.unshift("DOG!"));
+console.log(animals3);
+
+const allAnimals = animals1.concat(animals2,animals3);
+console.log(allAnimals);
+console.log('splice '+allAnimals.splice(1,4,'Kitty'));
+console.log(allAnimals);
+const allAnimals2 = allAnimals.slice(3);
+console.log('slice ');
+console.log(allAnimals2)
+console.log(allAnimals);
