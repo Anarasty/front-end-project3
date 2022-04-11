@@ -379,3 +379,27 @@ console.log(number13);
 
 let number14 = 23;
 console.log(number14.MAX_VALUE);
+
+
+///ARRAYS///
+const animals1 = ['mouse','cat','dog'];
+animals1[0]='not mouse';
+
+const animals2 = [];
+animals2[0] = 'lion';
+animals2[1] = 'elephant';
+animals2[2] = 'zebra';
+let animalLast = animals2[animals2.length-1];
+
+const animals3 = new Array("husky","wolf");
+animals3.push("dingo");
+animals3[animals3.length] = 'dogy';
+// Array.isArray(animals3);
+// animals3 instanceof Array;
+
+console.log('Arrays----');
+console.log(animals1);
+console.log(animals2);
+console.log(animals3);
+console.log(animalLast);
+console.log(Array.isArray(animals3));
