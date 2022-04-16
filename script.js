@@ -423,3 +423,12 @@ const allAnimals2 = allAnimals.slice(3);
 console.log('slice ');
 console.log(allAnimals2)
 console.log(allAnimals);
+
+///ARRAY SORT///
+console.log("ARRAY SORT");
+const array1 = ["B","D", "C","A"];
+console.log(array1);
+console.log(array1.sort());
+console.log(array1.reverse());
+const array2 = [1,5,3,2,4];
+console.log(array2.sort());
