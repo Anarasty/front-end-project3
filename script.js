@@ -432,3 +432,8 @@ console.log(array1.sort());
 console.log(array1.reverse());
 const array2 = [1,5,3,2,4];
 console.log(array2.sort());
+console.log(array1.indexOf("D"));
+console.log(array1.lastIndexOf("A"))
+const array3 = Array.from("QWERTY");
+console.log(array3);
+console.log(array3.includes("Q"));
