@@ -437,3 +437,16 @@ console.log(array1.lastIndexOf("A"))
 const array3 = Array.from("QWERTY");
 console.log(array3);
 console.log(array3.includes("Q"));
+
+///ARRAY CONST///
+const fruits1 = ["Banana", "Watermelon","Apple"];
+fruits1[0] = "Strawberry";
+fruits1.push("Kiwi");
+console.log(fruits1);
+
+const animals4 = ["cat", "dog","mouse"];
+console.log(animals4);
+{
+  const animals4 = ["zebra","lion","simba"]
+  console.log(animals4);
+}
