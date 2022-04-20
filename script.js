@@ -8,7 +8,7 @@ function myFunction() {
 
 function myFunction2() {
   window.alert(
-    "После того, как вы нажмете ОК, вас выебут в рот. Вы уверены в своем выборе?"
+    "После того, как вы нажмете ОК, вас уничтожат. Вы уверены в своем выборе?"
   );
   window.alert("точно?");
 }
@@ -450,3 +450,23 @@ console.log(animals4);
   const animals4 = ["zebra","lion","simba"]
   console.log(animals4);
 }
+
+
+///DATES///
+const date1 = new Date();
+document.getElementById("demo54").innerHTML = date1;
+
+// 7 numbers specify year, month, day, hour, minute, second, and millisecond 
+const date2 = new Date(2010, 8, 17, 3, 54, 20, 12);
+document.getElementById("demo55").innerHTML = date2;
+
+const date3 = new Date(2020);
+document.getElementById("demo56").innerHTML = date3;
+
+const date4 = new Date('September 19, 2020 12:12:12');
+document.getElementById("demo57").innerHTML = date4;
+
+document.getElementById("demo58").innerHTML = date3.toString();
+document.getElementById("demo59").innerHTML = date3.toDateString();
+document.getElementById("demo60").innerHTML = date3.toUTCString();
+document.getElementById("demo61").innerHTML = date3.toISOString();
