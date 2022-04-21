@@ -472,14 +472,14 @@ document.getElementById("demo60").innerHTML = date3.toUTCString();
 document.getElementById("demo61").innerHTML = date3.toISOString();
 
 
-///DATE FORMATES///
-const date5 = new Date("2020-09-17"); ///ISO Formate
+///DATE FORMATS///
+const date5 = new Date("2020-09-17"); ///ISO Format
 document.getElementById("demo62").innerHTML = date5;
 
-const date6 = new Date("09/14/2000"); ///Short date formate
+const date6 = new Date("09/14/2000"); ///Short date format
 document.getElementById("demo63").innerHTML = date6;
 
-const date7 = new Date("Sep 2 2009"); ///Long date formate
+const date7 = new Date("Sep 2 2009"); ///Long date format
 document.getElementById("demo64").innerHTML = date7;
 
 let parseDate = Date.parse("September 20 2020");
