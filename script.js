@@ -470,3 +470,17 @@ document.getElementById("demo58").innerHTML = date3.toString();
 document.getElementById("demo59").innerHTML = date3.toDateString();
 document.getElementById("demo60").innerHTML = date3.toUTCString();
 document.getElementById("demo61").innerHTML = date3.toISOString();
+
+
+///DATE FORMATES///
+const date5 = new Date("2020-09-17"); ///ISO Formate
+document.getElementById("demo62").innerHTML = date5;
+
+const date6 = new Date("09/14/2000"); ///Short date formate
+document.getElementById("demo63").innerHTML = date6;
+
+const date7 = new Date("Sep 2 2009"); ///Long date formate
+document.getElementById("demo64").innerHTML = date7;
+
+let parseDate = Date.parse("September 20 2020");
+document.getElementById("demo65").innerHTML = parseDate;
