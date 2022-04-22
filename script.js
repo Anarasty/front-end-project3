@@ -484,3 +484,24 @@ document.getElementById("demo64").innerHTML = date7;
 
 let parseDate = Date.parse("September 20 2020");
 document.getElementById("demo65").innerHTML = parseDate;
+
+
+///DATE GET METHODS///
+const date8 = new Date();
+document.getElementById("demo66").innerHTML = date8.getTime();
+document.getElementById("demo67").innerHTML = date8.getFullYear();
+document.getElementById("demo68").innerHTML = date8.getMonth() + 1;
+///----
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+document.getElementById("demo69").innerHTML = months[date8.getMonth()];
+///----
+document.getElementById("demo70").innerHTML = date8.getDate();
+document.getElementById("demo71").innerHTML = date8.getHours();
+document.getElementById("demo72").innerHTML = date8.getMinutes();
+document.getElementById("demo73").innerHTML = date8.getSeconds();
+document.getElementById("demo74").innerHTML = date8.getMilliseconds();
+document.getElementById("demo75").innerHTML = date8.getDay();
+///----
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+document.getElementById("demo76").innerHTML = days[date8.getDay()];
+///----

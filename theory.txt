@@ -169,3 +169,13 @@ concat() - creates a new array by merging (concatenating) existing arrays
 splice() - can be used to add and delete new items to an array
 slice() - slices out a piece of an array into a new array but not delete the items
 
+JAVASCRIPT DATE GET METHODS
+getTime() - returns the number of milliseconds since January 1, 1970
+getFullYear() - returns the year of a date as a four digit number
+getMonth() - returns the month of a date as a number (0-11)
+getDate() - returns the day of a date as a number (1-31)
+getHours() - returns the hours of a date as a number (0-23)
+getMinutes() - returns the minutes of a date as a number (0-59)
+getSeconds() - returns the seconds of a date as a number (0-59)
+getMilliseconds() - returns the milliseconds of a date as a number (0-999)
+getDay() - returns the weekday of a date as a number (0-6)
