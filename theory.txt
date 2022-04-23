@@ -179,3 +179,12 @@ getMinutes() - returns the minutes of a date as a number (0-59)
 getSeconds() - returns the seconds of a date as a number (0-59)
 getMilliseconds() - returns the milliseconds of a date as a number (0-999)
 getDay() - returns the weekday of a date as a number (0-6)
+
+JAVASCRIPT DATE SET METHODS
+setFullYear() - sets the year of a date object
+setMonth() - sets the month of a date object (0-11)
+setDate() - sets the day of a date object (1-31)
+setHours() - sets the hours of a date object (0-23)
+setMinutes() - sets the minutes of a date object (0-59)
+setSeconds() - sets the seconds of a date object (0-59)
+

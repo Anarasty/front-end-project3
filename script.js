@@ -505,3 +505,24 @@ document.getElementById("demo75").innerHTML = date8.getDay();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 document.getElementById("demo76").innerHTML = days[date8.getDay()];
 ///----
+
+
+/DATE SET METHODS///
+const date9 = new Date();
+date9.setFullYear(2020, 10, 10)
+document.getElementById("demo77").innerHTML = date9;
+
+date9.setMonth(11);
+document.getElementById("demo78").innerHTML = date9;
+
+date9.setDate(30);
+document.getElementById("demo79").innerHTML = date9;
+
+date9.setHours(06);
+document.getElementById("demo80").innerHTML = date9;
+
+date9.setMinutes(06);
+document.getElementById("demo81").innerHTML = date9;
+
+date9.setSeconds(06);
+document.getElementById("demo82").innerHTML = date9;
