@@ -507,7 +507,7 @@ document.getElementById("demo76").innerHTML = days[date8.getDay()];
 ///----
 
 
-/DATE SET METHODS///
+///DATE SET METHODS///
 const date9 = new Date();
 date9.setFullYear(2020, 10, 10)
 document.getElementById("demo77").innerHTML = date9;
@@ -526,3 +526,42 @@ document.getElementById("demo81").innerHTML = date9;
 
 date9.setSeconds(06);
 document.getElementById("demo82").innerHTML = date9;
+
+///JS MATH ///
+//Math constants
+//Math.E        // returns Euler's number
+//Math.PI       // returns PI
+//Math.SQRT2    // returns the square root of 2
+//Math.SQRT1_2  // returns the square root of 1/2
+//Math.LN2      // returns the natural logarithm of 2
+//Math.LN10     // returns the natural logarithm of 10
+//Math.LOG2E    // returns base 2 logarithm of E
+//Math.LOG10E   // returns base 10 logarithm of E
+
+console.log('MATH');
+console.log('Math.E '+Math.E);
+console.log('Math.PI '+Math.PI);
+console.log('Math.SQRT2 '+Math.SQRT2);
+console.log('Math.SQRT1_2 '+Math.SQRT1_2);
+console.log('Math.LN2 '+Math.LN2);
+console.log('Math.LN10 '+Math.LN10);
+console.log('MMath.LOG2E '+Math.LOG2E);
+console.log('Math.LOG10E '+Math.LOG10E);
+console.log('-------');
+console.log("Math.round "+Math.round(1.5));
+console.log("Math.round "+Math.round(1.3));
+console.log("Math.ceil "+Math.ceil(1.1));
+console.log("Math.floor "+Math.floor(1.7));
+console.log("Math.trunc "+Math.trunc(3.7));
+console.log("Math.sign "+Math.sign(-3.5));
+console.log("Math.pow "+Math.pow(2,3));
+console.log("Math.sqrt "+Math.sqrt(25));
+console.log("Math.abs "+Math.abs(-23.4));
+console.log("Math.sin "+Math.sin(90 * Math.PI / 180));
+console.log("Math.cos "+Math.cos(0 * Math.PI / 180));
+console.log("Math.min "+Math.min(2, 3, 4, 5.2, 1.2));
+console.log("Math.max "+Math.max(2, 3, 4, 5.2, 1.2));
+console.log("Math.random "+Math.random());
+console.log("Math.log "+Math.log(3));
+console.log("Math.log2 "+Math.log2(3));
+console.log("Math.log10 "+Math.log10(3));
