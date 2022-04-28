@@ -565,3 +565,9 @@ console.log("Math.random "+Math.random());
 console.log("Math.log "+Math.log(3));
 console.log("Math.log2 "+Math.log2(3));
 console.log("Math.log10 "+Math.log10(3));
+
+
+///MATH RANDOM///
+document.getElementById("demo84").innerHTML = Math.random();
+document.getElementById("demo85").innerHTML = Math.floor(Math.random()*10); // Returns a random integer from 0 to 9
+document.getElementById("demo86").innerHTML = Math.floor(Math.random()*10) + 1; // Returns a random integer from 1 to 10
