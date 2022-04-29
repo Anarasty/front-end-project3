@@ -571,3 +571,16 @@ console.log("Math.log10 "+Math.log10(3));
 document.getElementById("demo84").innerHTML = Math.random();
 document.getElementById("demo85").innerHTML = Math.floor(Math.random()*10); // Returns a random integer from 0 to 9
 document.getElementById("demo86").innerHTML = Math.floor(Math.random()*10) + 1; // Returns a random integer from 1 to 10
+
+
+///BOOLEANS///
+console.log('----------');
+console.log('BOOLEANS');
+console.log('10==9 '+Boolean(10==9));
+console.log('0 is not boolean - ' + Boolean(0));
+console.log('-0 is not boolean - ' + Boolean(-0));
+console.log('empty string is not boolean - ' + Boolean(""));
+console.log('undefinded value is not boolean - ' + Boolean());
+console.log('null value is not boolean - ' + Boolean(null));
+console.log('false value is not boolean - ' + Boolean(false));
+console.log('NaN value is not boolean - ' + Boolean(NaN));
