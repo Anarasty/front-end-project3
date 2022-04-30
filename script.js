@@ -584,3 +584,22 @@ console.log('undefinded value is not boolean - ' + Boolean());
 console.log('null value is not boolean - ' + Boolean(null));
 console.log('false value is not boolean - ' + Boolean(false));
 console.log('NaN value is not boolean - ' + Boolean(NaN));
+
+///COMPARISON///
+let compare1 = 5;
+document.getElementById("demo87").innerHTML = (compare1==5); //true
+document.getElementById("demo88").innerHTML = (compare1=='5');//true
+document.getElementById("demo89").innerHTML = (compare1==8);//false
+
+document.getElementById("demo90").innerHTML = (compare1===5);//true
+document.getElementById("demo91").innerHTML = (compare1==='5');//false
+document.getElementById("demo92").innerHTML = (compare1===8);//false
+
+document.getElementById("demo93").innerHTML = (compare1!=2);//true
+document.getElementById("demo94").innerHTML = (compare1!=="5");//true
+
+document.getElementById("demo95").innerHTML = (compare1>8);//false
+document.getElementById("demo96").innerHTML = (compare1<8);//true
+
+document.getElementById("demo97").innerHTML = (compare1<=8);//true
+document.getElementById("demo98").innerHTML = (compare1>=8);//false
