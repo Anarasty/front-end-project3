@@ -615,3 +615,18 @@ if (number15 > 10){
 } else {
   console.log('Its 10!');
 }
+
+
+///SWITCH///
+console.log('----SWITCH----');
+animal1 = 'DOG';
+switch(animal1) {
+  case 'CAT':
+    console.log("I am a cat")
+    break;
+  case 'DOG':
+    console.log("I am a dog")
+    break;
+  default :
+  console.log('There is no animal...')
+}
