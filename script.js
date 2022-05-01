@@ -603,3 +603,15 @@ document.getElementById("demo96").innerHTML = (compare1<8);//true
 
 document.getElementById("demo97").innerHTML = (compare1<=8);//true
 document.getElementById("demo98").innerHTML = (compare1>=8);//false
+
+
+///IF ELSE STATEMENT///
+console.log('------IF ELSE------')
+let number15 = 10;
+if (number15 > 10){
+  console.log('Number is greater than 10!');
+} else if (number15 < 10){
+  console.log('Number in lower than 10!');
+} else {
+  console.log('Its 10!');
+}
