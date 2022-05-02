@@ -656,3 +656,36 @@ function myFunction11 (value){
 }
 
 document.getElementById('demo101').innerHTML = putInLoop2;
+
+
+///FOR OF LOOP///
+
+const array5 = [1, 2, 3, 4, 5];
+
+let putInLoop3 = '';
+for (let x of array5){
+  putInLoop3 += x+ '<br>';
+}
+
+document.getElementById('demo102').innerHTML = putInLoop3;
+
+///WHILE LOOP///
+let putInLoop4 ='';
+let a1 = 0;
+while(a1 < 5){
+  putInLoop4 += " num" + a1;
+  a1++;
+}
+
+document.getElementById('demo103').innerHTML = putInLoop4;
+
+
+let putInLoop5 = '';
+let a2 = 0;
+do {
+  putInLoop5 += " number " +a2;
+  a2++;
+} while (a2 < 5);
+
+
+document.getElementById('demo104').innerHTML = putInLoop5;
