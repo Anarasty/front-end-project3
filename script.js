@@ -639,3 +639,20 @@ for(i=0; i<5; i++){
 }
 
 document.getElementById('demo99').innerHTML = var1;
+
+///FOR IN LOOP///
+const array4 = [11, 23, 34, 45, 56];
+let putInLoop1 = '';
+for (let x in array4){
+  putInLoop1 += array4[x] + '<br>';
+}
+document.getElementById('demo100').innerHTML = putInLoop1;
+
+let putInLoop2 = '';
+array4.forEach(myFunction11);
+
+function myFunction11 (value){
+  putInLoop2 += value + "<br>";
+}
+
+document.getElementById('demo101').innerHTML = putInLoop2;
