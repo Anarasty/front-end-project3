@@ -630,3 +630,12 @@ switch(animal1) {
   default :
   console.log('There is no animal...')
 }
+
+///FOR LOOP///
+let var1= '';
+
+for(i=0; i<5; i++){
+  var1 +='this is for loop '+ i+ "<br>" ;
+}
+
+document.getElementById('demo99').innerHTML = var1;
