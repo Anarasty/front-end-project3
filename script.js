@@ -689,3 +689,19 @@ do {
 
 
 document.getElementById('demo104').innerHTML = putInLoop5;
+
+
+///BREAK///
+let putInLoop6 = '';
+for (let i = 0; i < 10; i++) {
+  if (i == 3) {break;}
+  putInLoop6 += "num is " + i + "<br>";
+}
+document.getElementById('demo105').innerHTML = putInLoop6;
+
+let putInLoop7 = '';
+for (let i = 0; i < 5; i++){
+  if (i === 3) {continue;}
+  putInLoop7 += "NUMBER = " + i + "<br>";
+}
+document.getElementById('demo106').innerHTML = putInLoop7;
