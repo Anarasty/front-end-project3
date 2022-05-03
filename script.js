@@ -705,3 +705,27 @@ for (let i = 0; i < 5; i++){
   putInLoop7 += "NUMBER = " + i + "<br>";
 }
 document.getElementById('demo106').innerHTML = putInLoop7;
+
+
+///BREAK///
+const name3 = "Hello"; 
+
+let putInLoop8 = '';
+for (const x of name3){
+  putInLoop8 += x + '<br>';
+}
+
+document.getElementById('demo107').innerHTML = putInLoop8;
+
+const map1 = new Map ([
+  ['cat', 10],
+  ['dog', 5],
+  ['mouse', 11]
+]);
+
+let putInLoop9 = '';
+for (const x of map1) {
+  putInLoop9 += x + "<br>";
+}
+
+document.getElementById("demo108").innerHTML = putInLoop9;
