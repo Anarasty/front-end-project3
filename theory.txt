@@ -204,3 +204,12 @@ Math.random() - returns a random number between 0 (inclusive), and 1 (exclusive)
 Math.log(x) - returns the natural logarithm of x
 Math.log2(x) - returns the base 2 logarithm of x
 Math.log10(x) - returns the base 10 logarithm of x
+
+
+JAVASCRIPT SET METHODS
+new Set() - creates a new Set
+add() - adds a new element to the Set
+delete() - removes an element from a Set
+has() - returns true if a value exists in the Set
+forEach() - invokes a callback for each element in the Set
+values() - returns an iterator with all the values in a Set

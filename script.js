@@ -729,3 +729,19 @@ for (const x of map1) {
 }
 
 document.getElementById("demo108").innerHTML = putInLoop9;
+
+
+///SET///
+
+const set1 = new Set (['cat','dog','mouse']);
+document.getElementById("demo109").innerHTML = set1.size;
+set1.add('zebra');
+set1.add('lion');
+document.getElementById("demo110").innerHTML = set1.size;
+
+const set2 = new Set (['1','2','3']);
+let putInLoop10 = '';
+set2.forEach (function(value){
+  putInLoop10 += value + '<br>';
+})
+document.getElementById('demo111').innerHTML = putInLoop10;
