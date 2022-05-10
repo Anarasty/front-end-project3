@@ -213,3 +213,14 @@ delete() - removes an element from a Set
 has() - returns true if a value exists in the Set
 forEach() - invokes a callback for each element in the Set
 values() - returns an iterator with all the values in a Set
+
+
+JAVASCRIPT MAP METHODS
+
+new Map()- creates a new Map
+set() - sets the value for a key in a Map
+get() - gets the value for a key in a Map
+delete() - removes a Map element specified by the key
+has() - returns true if a key exists in a Map
+forEach() - calls a function for each key/value pair in a Map
+entries() - returns an iterator with the [key, value] pairs in a Map

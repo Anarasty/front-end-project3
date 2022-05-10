@@ -745,3 +745,32 @@ set2.forEach (function(value){
   putInLoop10 += value + '<br>';
 })
 document.getElementById('demo111').innerHTML = putInLoop10;
+
+
+///MAP///
+const letters = new Map ([
+  ['A', 20],
+  ['B', 30],
+  ['C', 10]
+]);
+
+document.getElementById('demo112').innerHTML = letters.get('A');
+
+const numbers2 = new Map();
+
+numbers2.set('Number 1', 440);
+numbers2.set('Number 2', 550);
+numbers2.set('Number 3', 690);
+document.getElementById('demo113').innerHTML = numbers2.get('Number 1');
+
+document.getElementById('demo114').innerHTML = letters.size;
+
+document.getElementById('demo115').innerHTML = letters.delete('C');
+document.getElementById('demo116').innerHTML = letters.has('C');
+
+let putInLoop11 = '';
+numbers2.forEach (function(value, key){
+  putInLoop11 += key + ' = ' + value + '<br>';
+})
+
+document.getElementById('demo117').innerHTML = putInLoop11;
