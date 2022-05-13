@@ -224,3 +224,23 @@ delete() - removes a Map element specified by the key
 has() - returns true if a key exists in a Map
 forEach() - calls a function for each key/value pair in a Map
 entries() - returns an iterator with the [key, value] pairs in a Map
+
+JAVASCRIPT TYPEOF 
+In JavaScript there are 5 different data types that can contain values:
+- string
+- number
+- boolean
+- object
+- function
+
+There are 6 types of objects:
+- Object
+- Date
+- Array
+- String
+- Number
+- Boolean
+
+And 2 data types that cannot contain values:
+- null
+- undefined

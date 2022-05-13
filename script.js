@@ -774,3 +774,25 @@ numbers2.forEach (function(value, key){
 })
 
 document.getElementById('demo117').innerHTML = putInLoop11;
+
+
+/// JavaScript typeof///
+console.log("----TYPE OF----")
+console.log('"hello" is '+ typeof 'hello');
+console.log('any number is '+ typeof 3.222);
+console.log('NaN is ' + typeof NaN);
+console.log('False is ' + typeof false);
+console.log('[1,2,3,4] is ' + typeof [1,2,3,4]);
+console.log('{name: "mark", surname: "twen"} is ' + typeof {name: "mark", surname: "twen"});
+console.log('new Date() is ' + typeof new Date());
+console.log('function(){} is ' + typeof function(){});
+console.log('myCat228 is ' + typeof myCat228);
+console.log('null is ' + typeof null);
+
+console.log("mark".constructor);
+console.log((3.22).constructor);
+console.log(false.constructor);
+console.log([1,2,3,4].constructor);
+console.log({name:' mark', surname:'twen'}.constructor);
+console.log(new Date().constructor);
+console.log(function () {}.constructor);
