@@ -796,3 +796,32 @@ console.log([1,2,3,4].constructor);
 console.log({name:' mark', surname:'twen'}.constructor);
 console.log(new Date().constructor);
 console.log(function () {}.constructor);
+
+
+/// JavaScript Type Conversion///
+console.log('---- TYPE Conversion ----');
+console.log(Number('321'));
+console.log(Number(' '));
+console.log(Number('2313 1313 1212'));
+
+let testnum1 = '2';
+let testnum2 = + testnum1;
+console.log(typeof testnum1 + " " + typeof testnum2);
+
+console.log('----------');
+console.log(126);
+console.log(30+30);
+console.log((3444).toString());
+console.log((30+50).toString());
+
+console.log('-----------');
+const date10 = new Date();
+console.log(Number(date2));
+console.log(String(Date()));
+
+console.log('-----------');
+console.log(Number(false));
+console.log(Number(true));
+
+console.log(String(false));
+console.log(String(true));
