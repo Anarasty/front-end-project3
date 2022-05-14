@@ -825,3 +825,14 @@ console.log(Number(true));
 
 console.log(String(false));
 console.log(String(true));
+
+
+/// JavaScript Bitwise///
+console.log('---- BITWISE ----');
+console.log(5 & 1); //Bitwise AND
+console.log(5 | 1); //Bitwise OR
+console.log(5 ^ 1); //Bitwise XOR
+console.log(~5); //Bitwise NOT
+console.log(5 << 1); //(Zero Fill) Bitwise Left Shift
+console.log(-5 >> 1); //(Sing Preserving) Bitwise Right Shift
+console.log(5 >>> 1); //(Zero Fill) Right Shift
