@@ -836,3 +836,19 @@ console.log(~5); //Bitwise NOT
 console.log(5 << 1); //(Zero Fill) Bitwise Left Shift
 console.log(-5 >> 1); //(Sing Preserving) Bitwise Right Shift
 console.log(5 >>> 1); //(Zero Fill) Right Shift
+
+// Javascript Regular Expressions
+
+let someTxt1 = 'Hello Dear World !'; //Common search method
+let search2 = someTxt1.search('World');
+document.getElementById('demo118').innerHTML = search2;
+
+let searchRegex2 = someTxt1.search(/world/i); // Regular expression search
+document.getElementById('demo119').innerHTML = searchRegex2;
+
+let someTxt3 = 'Hello Mark !'; //Common replace method
+let replace4 = someTxt3.replace('Mark', 'Sam');
+document.getElementById('demo120').innerHTML = replace4;
+
+let replaceRegex2 = someTxt3.replace(/mark/i, "Daniel");
+document.getElementById('demo121').innerHTML = replaceRegex2;
