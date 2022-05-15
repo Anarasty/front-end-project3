@@ -852,3 +852,16 @@ document.getElementById('demo120').innerHTML = replace4;
 
 let replaceRegex2 = someTxt3.replace(/mark/i, "Daniel");
 document.getElementById('demo121').innerHTML = replaceRegex2;
+
+
+///Javascript THIS Keyword
+const person2 = {
+  firstName: 'Markus',
+  lastname: 'Black',
+  id: 228,
+  fullName : function() {
+    return this.firstName + " " + this.lastname;
+  }
+};
+
+document.getElementById('demo122').innerHTML = person2.fullName();
