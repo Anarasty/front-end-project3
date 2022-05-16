@@ -865,3 +865,15 @@ const person2 = {
 };
 
 document.getElementById('demo122').innerHTML = person2.fullName();
+
+
+
+///Javascript Arrow Functions
+let myFunction12 = (a, b) => a * b;
+document.getElementById('demo123').innerHTML = myFunction12(3,4);
+
+let hello1 = () => "Hello World!";
+document.getElementById('demo124').innerHTML = hello1();
+
+let hello2 = (val) => 'Goodbye, ' + val;
+document.getElementById('demo125').innerHTML = hello2('Garry!');
