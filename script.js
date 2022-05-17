@@ -877,3 +877,31 @@ document.getElementById('demo124').innerHTML = hello1();
 
 let hello2 = (val) => 'Goodbye, ' + val;
 document.getElementById('demo125').innerHTML = hello2('Garry!');
+
+
+///Javascript Classes
+
+class Person {
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
+}
+
+const checkPerson1 = new Person('Mark', 30);
+document.getElementById('demo126').innerHTML = checkPerson1.name + " " + checkPerson1.age;
+
+
+class Animal {
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
+  getAge(){
+    let date = new Date();
+    return date.getFullYear() - this.age;
+  }
+}
+
+let myCat = new Animal('Beebee', 2020);
+document.getElementById('demo127').innerHTML = 'My cat is '+myCat.getAge()+' years old';
