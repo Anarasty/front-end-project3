@@ -905,3 +905,10 @@ class Animal {
 
 let myCat = new Animal('Beebee', 2020);
 document.getElementById('demo127').innerHTML = 'My cat is '+myCat.getAge()+' years old';
+
+///Javascript Modules
+// import { catMark, ageCatMark } from "./export,js";
+
+// let catInfo = 'My cat"s name is ' + catMark + ' he is ' + ageCatMark + ' years old!';
+
+// document.getElementById('demo128').innerHTML = catInfo;
