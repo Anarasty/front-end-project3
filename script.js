@@ -912,3 +912,13 @@ document.getElementById('demo127').innerHTML = 'My cat is '+myCat.getAge()+' yea
 // let catInfo = 'My cat"s name is ' + catMark + ' he is ' + ageCatMark + ' years old!';
 
 // document.getElementById('demo128').innerHTML = catInfo;
+
+
+//Javascript JSON
+let jsonstart = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+const obj1 = JSON.parse(jsonstart);
+document.getElementById("demo128").innerHTML =obj1.employees[1].firstName + " " + obj1.employees[1].lastName;
