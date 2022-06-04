@@ -922,3 +922,9 @@ let jsonstart = '{"employees":[' +
 
 const obj1 = JSON.parse(jsonstart);
 document.getElementById("demo128").innerHTML =obj1.employees[1].firstName + " " + obj1.employees[1].lastName;
+
+
+//Javascript Debugging
+let debug1 = 2 * 3;
+debugger;
+document.getElementById('demo129').innerHTML = debug1;
