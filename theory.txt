@@ -271,3 +271,57 @@ n?	Matches any string that contains zero or one occurrences of n
 
 JavaScript Reserved Words
 https://www.w3schools.com/js/js_reserved.asp
+
+JAVASCRIPT VERSIONS
+ES5 Features:
+    "use strict"
+    String[number] access
+    Multiline strings
+    String.trim()
+    Array.isArray()
+    Array forEach()
+    Array map()
+    Array filter()
+    Array reduce()
+    Array reduceRight()
+    Array every()
+    Array some()
+    Array indexOf()
+    Array lastIndexOf()
+    JSON.parse()
+    JSON.stringify()
+    Date.now()
+    Date toISOString()
+    Date toJSON()
+    Property getters and setters
+    Reserved words as property names
+    Object methods
+    Object defineProperty()
+    Function bind()
+    Trailing commas
+
+ES5 Features:
+    The let keyword
+    The const keyword
+    Arrow Functions
+    For/of
+    Map Objects
+    Set Objects
+    Classes
+    Promises
+    Symbol
+    Default Parameters
+    Function Rest Parameter
+    String.includes()
+    String.startsWith()
+    String.endsWith()
+    Array.from()
+    Array keys()
+    Array find()
+    Array findIndex()
+    New Math Methods
+    New Number Properties
+    New Number Methods
+    New Global Methods
+    Object entries
+    JavaScript Modules
