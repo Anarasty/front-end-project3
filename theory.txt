@@ -325,3 +325,21 @@ ES5 Features:
     New Global Methods
     Object entries
     JavaScript Modules
+
+ECMAScript 2016 Features:
+    JavaScript Exponentiation (**)
+    JavaScript Exponentiation assignment (**=)
+    JavaScript Array.prototype.includes
+
+ECMAScript 2017 Features:
+    JavaScript String padding
+    JavaScript Object.entries
+    JavaScript Object.values
+    JavaScript async functions
+    JavaScript shared memory
+    
+ECMAScript 2017 Features:
+    Asynchronous Iteration
+    Promise Finally
+    Object Rest Properties
+    New RegExp Features
